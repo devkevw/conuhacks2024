@@ -40,3 +40,33 @@ body {
     justify-content: space-between;
 }
 
+button.clear {
+    padding: 10px 15px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+    box-shadow: 0 5px #999;
+  }
+
+button.clear:hover {background-color: #007bff}
+
+button.clear:active {
+  background-color: #007bff;
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+
+p {
+    margin: 0px;
+}
+
+input.slider {
+    margin: 0;
+}
+.slider-text {
+    font-size: 18px;
+}
