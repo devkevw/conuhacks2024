@@ -35,4 +35,7 @@ body {
 .buttons {
     width: 500px;
     margin-bottom: 42.21px;
+
+    display: flex;
+    justify-content: space-between;
 }
