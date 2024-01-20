@@ -39,3 +39,40 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+
+ /* Styling for the switch container */
+ .switch-container {
+    display: inline-block;
+    position: relative;
+  }
+
+  /* Styling for the switch input */
+  .switch-input {
+    display: none;
+  }
+
+  /* Styling for the switch track */
+  .switch-track {
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  /* Styling for the switch thumb */
+  .switch-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    transition: transform 0.3s ease;
+  }
+
+  /* Styling for the switch in the 'on' state */
+  .switch-input:checked + .switch-track .switch-thumb {
+    transform: translateX(20px);
+  }
