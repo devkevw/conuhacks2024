@@ -1,2 +1,2 @@
-# conuhacks2024
+# ConUHacks VIII Hackathon: ...
 A ... created during HackConcordia's 8th edition of their annual hackathon ConUHacks.
