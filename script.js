@@ -23,13 +23,9 @@ function changeSquareColor() {
     this.classList.add('hovered');
 }
 
-  // Remove the class on mouseout
-function removeHoverClass() {
-    this.classList.remove('hovered');
-}
 
 var squares = document.querySelectorAll(".square");
-  squares.forEach(function(square) {
+squares.forEach(function(square) {
     square.addEventListener('mouseover', changeSquareColor);
-  });
+});
 
