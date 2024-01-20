@@ -9,5 +9,17 @@ body {
 }
 
 .title {
-    font-size: 48px;
+    font-size: 63px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.square, .row {
+    background-color: white;
+    flex: 1;
 }
