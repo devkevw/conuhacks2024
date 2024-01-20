@@ -23,3 +23,11 @@ body {
     background-color: white;
     flex: 1;
 }
+
+.square:hover{
+    background-color: red;
+  }
+
+.hovered{
+    background-color: black;
+}

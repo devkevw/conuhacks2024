@@ -17,3 +17,19 @@ for (var i = 0; i < size; i++){
     
     container.appendChild(row);
 }
+
+// for hover trail
+function changeSquareColor() {
+    this.classList.add('hovered');
+}
+
+  // Remove the class on mouseout
+function removeHoverClass() {
+    this.classList.remove('hovered');
+}
+
+var squares = document.querySelectorAll(".square");
+  squares.forEach(function(square) {
+    square.addEventListener('mouseover', changeSquareColor);
+  });
+
