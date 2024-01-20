@@ -31,3 +31,8 @@ body {
 .hovered{
     background-color: black;
 }
+
+.buttons {
+    width: 500px;
+    margin-bottom: 42.21px;
+}

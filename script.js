@@ -23,9 +23,21 @@ function changeSquareColor() {
     this.classList.add('hovered');
 }
 
-
 var squares = document.querySelectorAll(".square");
+
 squares.forEach(function(square) {
     square.addEventListener('mouseover', changeSquareColor);
 });
+
+// clear drawing board
+const clearButton = document.querySelector('.buttons .clear');
+
+function clear() {
+    // remove 'hovered' class from squares
+    squares.forEach(function(square){
+        square.classList.remove('hovered');
+    });
+}
+
+clearButton.addEventListener('click', clear);
 
