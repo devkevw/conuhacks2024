@@ -7,3 +7,4 @@ An etch-a-sketch game for the web created during HackConcordia's 8th edition of 
 - CSS
 
 ## Preview
+![Webpage Preview](./images/preview.png)
