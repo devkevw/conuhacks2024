@@ -21,6 +21,7 @@ function buildGrid() {
         container.appendChild(row);
     }
 }
+
 buildGrid();
 
 
@@ -36,6 +37,7 @@ function addMouseover () {
         square.addEventListener('mouseover', changeSquareColor);
     });
 }
+
 addMouseover();
 
 
@@ -78,5 +80,3 @@ function removeSquares() {
     })
   }
 
-
-  
