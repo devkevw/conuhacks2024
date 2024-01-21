@@ -24,11 +24,11 @@ body {
     flex: 1;
 }
 
-.square:hover{
+.square:hover {
     background-color: #007bff;
-  }
+}
 
-.hovered{
+.hovered {
     background-color: black;
 }
 
@@ -55,9 +55,11 @@ button.clear {
     border-radius: 10px;
     font-family: 'Space Mono', monospace;
     box-shadow: 0 5px #999;
-  }
+}
 
-button.clear:hover {background-color: #007bff}
+button.clear:hover {
+    background-color: #007bff
+}
 
 button.clear:active {
   background-color: #007bff;
@@ -83,7 +85,7 @@ input[type="range"] {
     border-radius: 5px; 
     outline: 2px solid black;
     margin: 0px 0px 10px 0px; 
-  }
+}
 
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
@@ -94,5 +96,19 @@ input[type="range"]::-webkit-slider-thumb {
     background-color: #007bff;
     border-radius: 50%; 
     cursor: pointer;
-  }
+}
+
+h5 {
+    margin: 42.21px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.github {
+    height: 12px;
+    width: auto;
+    margin: 0;
+}
 
